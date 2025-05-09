@@ -1,0 +1,222 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+
+  }
+  #logo-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f6f9ff;
+    color: #1a1a1a;
+    padding: 20px;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #A9D5FF;
+    padding: 30px 20px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    height: 600px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 10%;
+    letter-spacing: 2px; /* espaçamento entre letras */
+
+  }
+  
+  header h2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  header h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #67B5FF;
+  }
+  
+  header p {
+    margin-top: 15px;
+    color: #ffffff;
+
+
+  }
+  
+  #content-header{
+    width: 36%;
+    margin-left: 25px ;
+    margin-top: 40px;
+    
+  }
+  #p-content-header{
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+
+  }
+  button{
+    background-color: white;
+    color: #599bff;;
+    width: 250px;
+    font-size: 12pt;
+    padding: 10px;
+    border: none;
+    border-radius: 15px; 
+    margin-top: 25px;
+
+  }
+  button:hover{
+    color: white;
+    background-color: #599bff;;
+
+  }
+  #flex-header-manager{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .persona {
+    background-color: #599bff;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 20px;
+    box-shadow: 0 0 8px rgba(0, 80, 200, 0.1);
+    
+  }
+  #persona-1{
+    position: absolute;
+    top: 10%;
+    width: 500px;
+    right: 15%;
+  }
+  #persona-2{
+    position: absolute;
+    top: 40%;
+    width: 300px;
+    right: 6%;
+
+  }
+  #persona-3{
+    position: absolute;
+    top: 40%;
+    width: 400px;
+    right: 27%;
+  }
+  .persona h3 {
+    color: #0047a8;
+    margin-bottom: 10px;
+  }
+  
+  /* Chatbot de personalidade */
+  #chatbots {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  #chatbots h2 {
+    color: #0062e3;
+    margin-bottom: 10px;
+    font-size: 2.3rem;
+    letter-spacing: 2px; 
+    margin-bottom: 25px;
+
+  }
+  
+  #chatbots p {
+    margin-top: 25px;
+    max-width: 700px;
+    margin: 0 auto 20px;
+    font-size: 1.3rem;
+    letter-spacing: 2px; 
+  }
+  
+  .chat-exemplo {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .mensagem {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 18px;
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  .resposta {
+    background-color: #d0e4ff;
+    color: #004080;
+  }
+  /* Como funciona */
+  #como-funciona {
+    background-color: #eaf3ff;
+    padding: 30px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+  }
+  
+  #como-funciona h2 {
+    text-align: center;
+    color: #0052cc;
+    margin-bottom: 20px;
+  }
+  
+  #como-funciona ol {
+    margin-left:7% ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  #como-funciona li {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    width: 30%;
+    padding-left: 30px;
+    position: relative;
+  }
+  
+  #como-funciona li strong {
+
+    font-size: 1.4rem;
+    color: #007bff;
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 40px;
+  }
+  
